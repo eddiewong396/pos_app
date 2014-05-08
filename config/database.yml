@@ -16,7 +16,12 @@
 #
 default: &default
     adapter: postgresql
+    host: ec2-54-83-204-244.compute-1.amazonaws.com
     encoding: unicode
+    database: dcbq8ufpqaimu6
+    port: 5432
+    username: oujaqyzqhljlsh
+    password: UzIAFEJESpgepu8GuIemv3tNf3
     pool: 5
 
 development:
